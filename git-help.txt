@@ -1,0 +1,12 @@
+1.Команды, позволяющие git'у узнать Ваше имя и эл.почту
+***
+git config --global user.name "Your Name"
+git config --global user.email "Your_email@whatever.com"
+***
+
+2.Клонирование необходимого нам репозитория (сначала перейдите в директорию ~/gitdir/)
+***
+git clone https://github.com/cppspec/cpp-src.git
+***
+
+3.Текущий статус
