@@ -4,5 +4,5 @@
 Чтобы использовать эти функции, нужно скомпилировать совместно main.cpp и all_func.cpp , в противном случае, возникнет ошибка компиляции.
 
 Компиляция и выполнение:
-1 способ (тут из объектных файлов создастся только all_func.o): g++ main.cpp all_func.cpp && ./a.out
-2 способ (с промежуточным созданием и all_func.о и main.o): g++ -c main.cpp all_func.cpp && g++ main.o all_func.o && ./a.out
+1 способ 1: g++ main.cpp all_func.cpp && ./a.out
+2 способ 2 (с промежуточным созданием и all_func.о и main.o): g++ -c main.cpp all_func.cpp && g++ main.o all_func.o && ./a.out
