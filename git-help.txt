@@ -9,4 +9,19 @@ git config --global user.email "Your_email@whatever.com"
 git clone https://github.com/cppspec/cpp-src.git
 ***
 
-3.Текущий статус
+3.Скачивание текущей версии репозитория:
+***
+git pull
+***
+
+4.Текущий статус (информация о текущих изменениях)
+***
+git status
+***
+
+5.История изменений
+***
+git log
+***
+
+
