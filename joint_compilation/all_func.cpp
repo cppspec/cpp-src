@@ -2,7 +2,7 @@
 
 //void-функция
 void func(){
-	std::cout<<"void-функция, которая ничего не делает, кроме вывода на экран этого сообщения\n";
+	std::cout<<"void-functsiya, kotoraya nichego ne delayet, krome vyvoda na ekran etogo soobshheniya\n";
 	return;
 }
 
@@ -10,7 +10,7 @@ void func(){
 //функция которая вычисляет факториал (аргумент должен быть целым неотрицательным числом)
 int fact(int a){
 	if(a<0){
-		std::cerr<<"Невозможно вычислить факториал числа "<<a<<" , так как оно отрицательное\n";
+		std::cerr<<"Nevozmozhno vychiclit' factorial chisla "<<a<<" , tak kak ono otritsatel'noe\n";
 		return -1;
 	}
 	int res=1;
@@ -22,7 +22,7 @@ int fact(int a){
 //решение уравнения ax+b=0
 double solvLinEq(double a, double b){
 	if(a==0 && b!=0){
-		std::cerr<<"Уравнение "<<a<<"*x + "<<b<<" не имеет решений\n";
+		std::cerr<<"Uravneniye "<<a<<"*x + "<<b<<" ne imeet reshenij\n";
 		return -1.0;
 	}
 	if(a==0 && b==0){

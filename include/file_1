@@ -1,7 +1,7 @@
 //вычисление факториала
 int fact(int a){
 	if(a<0){
-		std::cerr<<"Невозможно вычислить факториал числа "<<a<<" , так как оно отрицательное\n";
+		std::cerr<<"Nevozmozhno vychiclit' factorial chisla "<<a<<" , tak kak ono otritsatel'noe\n";
 		return -1;
 	}
 	int res=1;

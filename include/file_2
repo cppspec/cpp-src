@@ -1,0 +1,5 @@
+//void-функция
+void func(){
+	std::cout<<"void-functsiya, kotoraya nichego ne delayet, krome vyvoda na ekran etogo soobshheniya\n";
+	return;
+}
