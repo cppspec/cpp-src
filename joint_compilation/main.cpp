@@ -2,9 +2,9 @@
 //#include<clocale> //это если надо для включения кириллицы в консоли, вроде бы так это включается
 
 //реализации этих функций находятся в all_func.cpp файле
-int fact(int);
-void func();
-double solvLinEq(double,double);
+extern int fact(int);
+extern void func();
+extern double solvLinEq(double,double);
 
 int main(){
 	//setlocale(LC_ALL, "Russian");	//кириллица
